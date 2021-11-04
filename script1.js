@@ -7,3 +7,15 @@
 // ###
 // ##
 // #
+
+let j = 1;
+
+while (j < 4){
+    console.log(j);
+    j++;
+}
+
+while (j >= 0){
+    console.log(j);
+    j--;
+}
