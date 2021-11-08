@@ -8,9 +8,9 @@
 // ##
 // #
 
-let j = 1;
+/*
 
-while (j < 4){
+while (j <= 4){
     console.log(j);
     j++;
 }
@@ -18,4 +18,22 @@ while (j < 4){
 while (j >= 0){
     console.log(j);
     j--;
+}
+*/
+
+let j = 1;
+let k = 0;
+let outputString = "";
+
+while (j <= 4){
+    console.log(j)
+}
+
+while (k < j){
+    outputString += "#";
+    k++;
+}
+
+console.log(outputString);{
+    j++;
 }
