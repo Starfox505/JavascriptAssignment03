@@ -22,12 +22,13 @@ while (j >= 0){
 */
 
 let j = 1;
-let k = 0;
-let outputString = "";
 
 while (j <= 4){
     console.log(j)
 }
+
+let k = 0;
+let outputString = "";
 
 while (k < j){
     outputString += "#";
