@@ -21,20 +21,15 @@ while (j >= 0){
 }
 */
 
-let j = 1;
-
-while (j <= 4){
-    console.log(j)
-}
-
-let k = 0;
 let outputString = "";
+for (let j = 1; j <= 4; j++)
+  for (let i = 1; i <= j; i++) {
+    outputString = outputString + "#";
+  }
+console.log(outputString);
 
-while (k < j){
-    outputString += "#";
-    k++;
-}
-
-console.log(outputString);{
-    j++;
-}
+for (let j = 1; j <= 4; j--)
+  for (let i = 1; i <= j; i--) {
+    outputString = outputString + "#";
+  }
+console.log(outputString);
